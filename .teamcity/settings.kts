@@ -60,7 +60,7 @@ object ExampleTeamcityDz : Project({
 object ExampleTeamcityDz_Build : BuildType({
     name = "Build"
 
-    artifactRules = "/target/*.jar"
+    artifactRules = "target/*.jar"
 
     vcs {
         root(ExampleTeamcityDz_HttpsGithubComOlegAnanyevExampleTeamcityRefsHeadsMaster)
