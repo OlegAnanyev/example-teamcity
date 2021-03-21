@@ -5,6 +5,6 @@ public class Welcomer{
 		return "Welcome home, goood hunter. What is it your desire?";
 	}
 	public String sayFarewell() {
-		return "Farewell, good hunter. May you find your worth in waking world.";
+		return "Farewell, goood hunter. May you find your worth in waking world.";
 	}
 }
